@@ -1,0 +1,36 @@
+.statisticsContainer {
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.statBlock {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Новий рядок: дозволяє елементам переноситися на новий рядок, якщо вони не поміщаються в один ряд */
+}
+
+.item {
+  flex: 0 0 100px; /* Новий рядок: фіксована ширина елемента */
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 0 10px 10px 0; /* Зміна: додано зовнішній відступ між елементами та на нижній стороні */
+}
+
+.label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.percentage {
+  font-size: 1.5em;
+  font-weight: bold;
+}

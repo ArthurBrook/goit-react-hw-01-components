@@ -1,0 +1,37 @@
+.item {
+  max-width: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.online {
+  background-color: #4caf50; /* зелений колір для онлайн статусу */
+}
+
+.offline {
+  background-color: #f44336; /* червоний колір для офлайн статусу */
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-weight: bold;
+  margin: 0;
+}
