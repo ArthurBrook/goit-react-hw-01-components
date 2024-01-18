@@ -19,11 +19,11 @@
 }
 
 .online {
-  background-color: #4caf50; /* зелений колір для онлайн статусу */
+  background-color: #4caf50;
 }
 
 .offline {
-  background-color: #f44336; /* червоний колір для офлайн статусу */
+  background-color: #f44336;
 }
 
 .avatar {

@@ -1,24 +1,23 @@
 .transaction-history {
   width: 900px;
   border-collapse: collapse;
-  margin: auto; /* додайте бажаний відступ від верхнього краю таблиці */
+  margin: auto;
 }
 
 .transaction-history th,
 .transaction-history td {
-  border: 1px solid #ddd; /* рамка для кожної ячейки */
-  padding: 8px; /* відступ всередині кожної ячейки */
-  text-align: center; /* вирівнювання тексту в ячейках по центру */
-  width: 300px; /* ширина стовпців */
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  width: 300px;
 }
 
 .transaction-history th {
-  background-color: #0000ff; /* колір фону заголовків стовпців */
-  font-weight: bold; /* жирний шрифт для заголовків */
+  background-color: #0000ff;
+  font-weight: bold;
   color: #fff;
 }
 
-/* Додайте стилі за потреби для непарних рядків або інших ефектів */
 .transaction-history tr:nth-child(even) {
-  background-color: #f9f9f9; /* колір фону для парних рядків */
+  background-color: #f9f9f9;
 }

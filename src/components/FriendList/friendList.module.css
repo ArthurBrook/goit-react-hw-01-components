@@ -2,10 +2,9 @@
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: space-around; /* це додає відступи між елементами */
+  justify-content: space-around;
 }
 
-/* Ці стилі не обов'язкові, але можуть додатково стилізувати ваш компонент FriendList */
 .friend-list-item {
-  margin-bottom: 15px; /* відступ між елементами списку */
+  margin-bottom: 15px;
 }

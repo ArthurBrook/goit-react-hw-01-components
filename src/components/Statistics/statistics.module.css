@@ -10,11 +10,11 @@
 .statBlock {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap; /* Новий рядок: дозволяє елементам переноситися на новий рядок, якщо вони не поміщаються в один ряд */
+  flex-wrap: wrap;
 }
 
 .item {
-  flex: 0 0 100px; /* Новий рядок: фіксована ширина елемента */
+  flex: 0 0 100px;
   height: 100px;
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@
   align-items: center;
   border: 1px solid #ccc;
   border-radius: 8px;
-  margin: 0 10px 10px 0; /* Зміна: додано зовнішній відступ між елементами та на нижній стороні */
+  margin: 0 10px 10px 0;
 }
 
 .label {
